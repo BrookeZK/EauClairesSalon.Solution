@@ -1,6 +1,6 @@
-# Pierre's Vendor Database
+# Eau Claire's Salon: Stylist-Client Database
 
-#### _Code Review for Week 10 - 3/13/2020_
+#### _Code Review for Week 11 - 3/20/2020_
 
 #### _By Jonathan Carlos_
 
@@ -138,6 +138,6 @@ If you have any questions, comments, or concerns, please feel free to contact th
 
 ## **License**
 
-Copyright (c) 2020 **_Pierre's Vendor Database_**
+Copyright (c) 2020 **_Eau Claire's Salon: Stylist-Client Database_**
 
 This software is licensed under the MIT license.
