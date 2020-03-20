@@ -69,9 +69,9 @@ Stretch goals include:
   * Lastly, set your password and complete the installation process.
 5. You can exit the mysql program by entering `exit`
 6. Add the MySQL environment variable to the System PATH. We must include MySQL in the System Environment Path Variable. This is its own multi-step process. Instructions here are for Windows 10:
-  a. Open the Control Panel and visit System > Advanced System Settings > Environment Variables...
-  b. Then select PATH..., click Edit..., then Add.
-  c. Add the exact location of your MySQL installation, and click OK. (This location is likely `C:\Program Files\MySQL\MySQL Server 8.0\bin`, but may differ depending on your specific installation.)
+  * Open the Control Panel and visit System > Advanced System Settings > Environment Variables...
+  * Then select PATH..., click Edit..., then Add.
+  * Add the exact location of your MySQL installation, and click OK. (This location is likely `C:\Program Files\MySQL\MySQL Server 8.0\bin`, but may differ depending on your specific installation.)
 7. Open MySQL Workbench and select the `Local instance 3306` server (it may have a different name). You will need to enter the password you set (We used `epicodus`). If it connects, you're all set.
 
 *MySQL Workbench Database Setup:*
