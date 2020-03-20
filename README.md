@@ -15,16 +15,14 @@ _This C# codebase will build a user-friendly application for Eau Claire's Salon,
 
 | Behavior | Input | Output |
 |----------|:-----:|--------|
-| Pierre enters vendor name. | "Suzie's Cafe" | newVendor.name == "Suzie's Cafe" |
-| Pierre enters vendor description. | "Newest cafe in town." | newVendor.description == ""Newest cafe in town."|
-| Pierre adds an order title to a vendor. | "Croissants." | newVendor.order.title == "Croissants." |
-| Pierre adds an order description to a vendor. | "Cream filled croissants." | newVendor.order.title == "Cream filled croissants."
-| Pierre adds an order price to a vendor. | "20" | newVendor.order.price == 20 |
-| Pierre adds an order date to a vendor.| "05/01/2020" | newVendor.order.date == "05/01/2020" |
-| Pierre is greeted with a welcome splash page. | localhost:5000/ | route == "/" |
-| Pierre clicks on a link that sends him to a form where he can add a vendor. | "click" | route == /form |
-| Pierre clicks on a vendor's name and it goes to a page that displays all of that vendor's orders. | "click" | route == /vendors/orders/ |
-| Pierre clicks on a link that presents a form for a new order for a particular vendor. | "click" | route == /vendors/1/orders/new |
+| Eau Claire enters stylist name. | "Jane" | newStylist.name == "Jane" |
+| Eau Claire enters stylist specialty. | "Thick hair" | newStylist.specialty == "Thick hair" |
+| Eau Claire enters a client name to a stylist. | "Mary" | newStylist.client.name == "Mary" |
+| Eau Claire enters a client description to a stylist. | "Long time client" | newStylist.client.description == "Long time client" |
+| Eau Claire is greeted with a welcome splash page. | localhost:5000/ | route == "/" |
+| Eau Claire clicks on a link that sends her to a form where she can add a stylist. | "click" | HttpPost ActionResult' == Create(Stylist stylist) |
+| Eau Claire clicks on a stylist name and it goes to a page that displays all of that stylist's clients. | "click" | ActionResult ==  Details() |
+| Eau Claire clicks on a link that presents a form for a new client for a particular stylist. | "click" | HttPost ActionResult == Create (Client client) |
 
 
 ## **Minimum Viable Product (MVP)**
