@@ -112,15 +112,27 @@ If you have any questions, comments, or concerns, please feel free to contact th
 
 ## **Technologies used**
 
-* .NET Core
+* _Git 2.23.0_
 
-* ASP.NET Core MVC
+* _C# language_
 
-* Razor
+* _.NET Core 2.2.106_
 
-* C#
+* _dotnet script 0.50.1_
 
-* Visual Studio Code
+* _Visual Studio Code 1.43.1_
+
+* _Model-View-Controller(MVC) framework_
+
+* _MySQL 8.0.15_
+
+* _MySQL Workbench 8.0.15_
+
+* _Entity Framework Core 2.2.4_
+
+* _Language-Integrated Query (LINQ)_
+
+* _ASP.NET Razor_
 
 * GitBash
 
