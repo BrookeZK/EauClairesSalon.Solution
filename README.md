@@ -62,7 +62,11 @@ Stretch goals include:
 1. Download the MySQL Web Installer from [MySQL Downloads](https://dev.mysql.com/downloads/file/?id=484919) (Use the No thanks, just start my download link.).
 2. Choose `Custom` setup type.
 3. When prompted to `Select Products and Features`, make sure you select both `MySQL Server` (Under MySQL Servers), and `MySQL Workbench` (Under applications).
-4. When you reach `Configuration`, set `High Availability` to `Standalone`. Defaults are OK under `Type and Networking`. Set `Authentication Method` to `Use Legacy Authenticationn Method`. Lastly, set your password and complete the installation process.
+4. When you reach `Configuration`:
+  * Set `High Availability` to `Standalone`. 
+  * Defaults are OK under `Type and Networking`. 
+  * Set `Authentication Method` to `Use Legacy Authenticationn Method`.
+  * Lastly, set your password and complete the installation process.
 5. You can exit the mysql program by entering `exit`
 6. Add the MySQL environment variable to the System PATH. We must include MySQL in the System Environment Path Variable. This is its own multi-step process. Instructions here are for Windows 10:
   a. Open the Control Panel and visit System > Advanced System Settings > Environment Variables...
