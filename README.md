@@ -6,7 +6,7 @@
 
 ## **Description**
 
-_This C# codebase will build a user-friendly application for Pierre's Bakery, allowing him to keep track of his vendors that purchase baked goods from him, as well as the orders belonging to those vendors._
+_This C# codebase will build a user-friendly application for Eau Claire's Salon, allowing her to manage and keep track of her stylists, their specialties, and the client relationships that they carry._
 
 ## Preview
 
