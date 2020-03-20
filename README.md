@@ -29,14 +29,15 @@ _This C# codebase will build a user-friendly application for Eau Claire's Salon,
 
 ## **Minimum Viable Product (MVP)**
 
-The MVP of this project is to allow Pierre to keep track of his vendors and their orders through a user-friendly MVC web aplication.
+The MVP of this project is to allow Eau Claire to add new stylists, new clients to a specific stylist (this will not be available if no stylists have been added), and be able to select a stylist, see their details, and a list of clients that belong to that stylist.
 
 Stretch goals include:
 
-* Allow Pierre to click an rrder's name to go to a separate page to view its details.
-* Add the ability to delete individual Vendors, all Orders belonging to a Vendor, individual Orders, or all Vendors.
-* Add the ability for Pierre to note whether an order has been paid for or not.
-* Add search functionality.
+* Adding a form where employees may search for a stylist by name and display a list of all results.
+* Adding a form where employees may also search for a client by name. Display a list of all results.
+* Adding a feature for adding an appointment to a client.
+* Adding a feature for adding an appointment to a stylist.
+* Adding a feature for keeping track of how much each stylist was paid for each appointment.
 
 ## **Setup/Installation**
 
