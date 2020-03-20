@@ -49,7 +49,6 @@ Stretch goals include:
 4. Install the dotnet script REPL tool by running the `$ dotnet tool install -g dotnet-script` command in your terminal.
 5. Restart your terminal to complete the installation.
 
-
 *Installing MySQL | MacOS:*
 
 1. Download the MySQL Community Server DMG File from [MySQL Community Server](https://dev.mysql.com/downloads/file/?id=484914)
@@ -60,13 +59,16 @@ Stretch goals include:
 
 *Installing MySQL | Windows 10:*
 
-1. Download the MySQL Web Installer from [MySQL Downloads](https://dev.mysql.com/downloads/file/?id=484919) (Use the No thanks, just start my download link.)
-2. You can exit the mysql program by entering `exit`
-3. Add the MySQL environment variable to the System PATH. We must include MySQL in the System Environment Path Variable. This is its own multi-step process. Instructions here are for Windows 10:
+1. Download the MySQL Web Installer from [MySQL Downloads](https://dev.mysql.com/downloads/file/?id=484919) (Use the No thanks, just start my download link.).
+2. Choose `Custom` setup type.
+3. When prompted to `Select Products and Features`, make sure you select both `MySQL Server` (Under MySQL Servers), and `MySQL Workbench` (Under applications).
+4. When you reach `Configuration`, set `High Availability` to `Standalone`. Defaults are OK under `Type and Networking`. Set `Authentication Method` to `Use Legacy Authenticationn Method`. Lastly, set your password and complete the installation process.
+5. You can exit the mysql program by entering `exit`
+6. Add the MySQL environment variable to the System PATH. We must include MySQL in the System Environment Path Variable. This is its own multi-step process. Instructions here are for Windows 10:
   a. Open the Control Panel and visit System > Advanced System Settings > Environment Variables...
   b. Then select PATH..., click Edit..., then Add.
   c. Add the exact location of your MySQL installation, and click OK. (This location is likely `C:\Program Files\MySQL\MySQL Server 8.0\bin`, but may differ depending on your specific installation.)
-4. Open MySQL Workbench and select the `Local instance 3306` server (it may have a different name). You will need to enter the password you set (We used `epicodus`). If it connects, you're all set.
+7. Open MySQL Workbench and select the `Local instance 3306` server (it may have a different name). You will need to enter the password you set (We used `epicodus`). If it connects, you're all set.
 
 *MySQL Workbench Database Setup:*
 
@@ -77,7 +79,6 @@ Stretch goals include:
 5. Enter `USE Jonathan_Carlos`; to connect to the database. You can confirm that you have connected to your new database by executing the `SELECT DATABASE();`
 6. Enter `CREATE TABLE stylists (StylistId PRIMARY KEY, Name VARCHAR(255), Specialty VARCHAR(255));` to create a `stylists` table with columns titled `StylistId`, `Name`, and `Specialty`.
 7. Enter `CREATE TABLE clients (ClientId PRIMARY KEY, Name VARCHAR(255), Description VARCHAR(255), StylistId INT));` to create a `clients` table with columns titled `ClientId`, `Name`, `Description`, and `StylistId`.
-
 
 *Cloning this repository:*
 
