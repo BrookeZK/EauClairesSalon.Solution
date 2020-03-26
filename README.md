@@ -78,7 +78,7 @@ Stretch goals include:
 2. If the server is not running, restart it in the terminal with the command `mysql start`.
 3. Once the server is running, enter the command `mysql -u{server-name-goes-here} -p{password-goes-here}` to access MySQL.
 4. Enter `CREATE DATABASE Jonathan_Carlos;` to create a database.
-5. Enter `USE Jonathan_Carlos;` to connect to the database. You can confirm that you have connected to your new database by executing the `SELECT DATABASE();`.
+5. Enter `USE Jonathan_Carlos;` to connect to the database. You can confirm that you have connected to your new database by executing the `SELECT DATABASE();` command.
 6. Enter `CREATE TABLE stylists (StylistId serial PRIMARY KEY, Name VARCHAR(255), Specialty VARCHAR(255));` to create a `stylists` table with three columns titled `StylistId`, `Name`, and `Specialty`.
 7. Enter `CREATE TABLE clients (ClientId serial PRIMARY KEY, Name VARCHAR(255), Description VARCHAR(255), StylistId INT);` to create a `clients` table with four columns titled `ClientId`, `Name`, `Description`, and `StylistId`.
 8. Open your MySQL Workbench application, click on your local server, and enter your password.
